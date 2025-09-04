@@ -276,8 +276,8 @@ export default function Home() {
           <option value="18500" />
         </datalist>
         <datalist id="ads">
-          <option value="ค่าโฆษณาที่ต้องจ่ายให้กับ Google (งบยิง) วัน x บาท" />
-          <option value="ค่าโฆษณาที่ต้องจ่ายให้กับ facebook (งบยิง) วัน x บาท" />
+          <option value="ค่าโฆษณาที่ต้องจ่ายให้กับ Google (งบยิง)  " />
+          <option value="ค่าโฆษณาที่ต้องจ่ายให้กับ facebook (งบยิง) " />
         </datalist>
       </div>
     </>
