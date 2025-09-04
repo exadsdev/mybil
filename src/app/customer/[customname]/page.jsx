@@ -182,15 +182,15 @@ export default function CustomerPage({ params: paramsPromise }) {
                   <th>ราคา (บาท)</th>
                 </tr>
               </thead>
-              <tbody>
+             <tbody>
                 {data.map((item) => (
                   <React.Fragment key={item.id}>
                     <tr>
-                      <td>{item.name}</td>
+                      <td>{item.name} {item.days}</td>
                       <td>{Number(item.price || 0).toLocaleString()} บาท</td>
                     </tr>
                     <tr>
-                      <td>{item.ads}</td>
+                      <td>{item.ads} {item.adsdays}วัน x {item.ads_price} บาท  </td>
                       <td>{Number((item.ads_price || 0) * (item.adsdays || 0)).toLocaleString()} บาท</td>
                     </tr>
                   </React.Fragment>
