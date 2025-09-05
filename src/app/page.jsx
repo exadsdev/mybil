@@ -114,7 +114,7 @@ export default function Home() {
         <meta property="twitter:title" content="Bils บิลใบเสร็จแจ้งชำระค่าโฆษณา" />
         <meta property="twitter:description" content="Bils บิลใบเสร็จแจ้งชำระค่าบริการค่าโฆษณา" />
         <meta property="twitter:image" content="https://bil.myad-dev.com/logo.png" />
-        <link rel="shortcut icon" href="https://bil.myad-dev.com/logo.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="https://mybil.myad-dev.com/logo.png" type="image/x-icon" />
       </Head>
 
       <div className="container mt-5">
